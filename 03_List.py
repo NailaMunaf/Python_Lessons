@@ -49,3 +49,15 @@ print(list) #[10, 20, 30]
 list = ["C", "D", "A", "A", "B", "B", "A"]
 list.sort()
 print(list) #['A', 'A', 'A', 'B', 'B', 'C', 'D']
+
+############ removing duplicates ########
+
+numbers = [10, 20, 10, 30, 20, 40, 10]
+
+unique_numbers = []
+
+for number in numbers:
+    if number not in unique_numbers:
+        unique_numbers.append(number)
+
+print(unique_numbers)

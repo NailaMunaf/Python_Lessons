@@ -37,15 +37,15 @@ for el in list:
        continue    #it doesnt print el
     print(el)
 else:
-    print("END")
+    print("END") #it is printed without any condition
 
 ##########################################
 ###############pass######################
 ########################################
 
 for i in range(1, 11):
-    pass
-print("end of loop") #this is printed once
+    pass #moves forward
+print("end of loop") #this is printed once at the end of loop
 
 i = 0
 if(i == 5):
@@ -53,3 +53,17 @@ if(i == 5):
 print("end") #this is printed once also
 
 #########################################
+
+fruits = ["apple", "banana", "mango", "orange"]
+
+for fruit in fruits:
+    position = fruits.index(fruit)
+    print(fruit, position)
+
+########################
+
+numbers = [1, 2, 3]
+
+for i in numbers:
+    for j in numbers:
+        print(i, j)
