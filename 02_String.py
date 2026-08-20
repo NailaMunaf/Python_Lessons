@@ -27,7 +27,7 @@ print(str.endswith("ple")) #True
 
 str = "im eating Apple" 
 print (str.find("Apple")) #10
-#A is at 11th number
+
 
 ############################
 
